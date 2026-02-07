@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javi & Ariel Landscaping</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background: #2e6b3f;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 42px;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        nav {
+            background: #244f30;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .service-box {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1 1 calc(33% - 20px);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+        .service-box h3 {
+            margin-top: 0;
+            color: #2e6b3f;
+        }
+        .contact {
+            background: #e8f3ec;
+            padding: 40px 20px;
+            border-radius: 8px;
+        }
+        footer {
+            background: #244f30;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            .service-box {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Javi & Ariel Landscaping</h1>
+    <p>Transforming outdoor spaces with precision, passion, and care.</p>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service-box">
+            <h3>Lawn Care & Maintenance</h3>
+            <p>Weekly mowing, edging, trimming, and seasonal upkeep to keep your yard looking sharp.</p>
+        </div>
+        <div class="service-box">
+            <h3>Landscape Design</h3>
+            <p>Custom layouts, plant selection, and full outdoor transformations tailored to your vision.</p>
+        </div>
+        <div class="service-box">
+            <h3>Hardscaping</h3>
+            <p>Patios, walkways, retaining walls, and stone features built to last.</p>
+        </div>
+        <div class="service-box">
+            <h3>Mulch & Rock Installation</h3>
+            <p>Fresh mulch, decorative stone, and ground cover solutions for a clean, polished look.</p>
+        </div>
+        <div class="service-box">
+            <h3>Seasonal Cleanups</h3>
+            <p>Spring and fall cleanups, leaf removal, and debris clearing.</p>
+        </div>
+        <div class="service-box">
+            <h3>Bush & Tree Trimming</h3>
+            <p>Shaping, pruning, and maintenance to keep your greenery healthy and beautiful.</p>
+        </div>
+    </div>
+</section>
+
+<section id="about" class="section">
+    <h2>About Us</h2>
+    <p>
+        Javi & Ariel started their landscaping journey with one goal: to bring reliability, honesty, 
+        and craftsmanship back into outdoor services. What began as a small neighborhood operation 
+        has grown into a trusted local business known for quality work and genuine care.
+    </p>
+    <p>
+        Whether it’s a simple weekly mow or a full backyard redesign, we treat every project like it’s our own home.
+    </p>
+</section>
+
+<section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <div class="contact">
+        <p><strong>Phone:</strong> (555) 123‑4567</p>
+        <p><strong>Email:</strong> contact@javiandariel.com</p>
+        <p><strong>Service Area:</strong> Chicago & surrounding suburbs</p>
+        <p>Send us a message and we’ll get back to you within 24 hours.</p>
+    </div>
+</section>
+
+<footer>
+    © 2026 Javi & Ariel Landscaping — All Rights Reserved
+</footer>
+
+</body>
+</html>
